@@ -22,25 +22,6 @@ A lightweight command-line tool written in C for viewing and editing ID3v2 tags 
 | `-C` | Content Type (Genre) | TCON |
 | `-c` | Comments | COMM |
 
-## Installation
-
-### Prerequisites
-- GCC compiler
-- Standard C library
-
-### Build Instructions
-
-```bash
-# Clone the repository
-git clone https://github.com/SLADE0261/MP3-id3v2-editor.git
-cd MP3-id3v2-editor
-
-# Compile the program
-gcc main.c tag_editor.c -o mp3tag
-
-# Or use the simple make command if you have a Makefile
-make
-```
 
 ## Usage
 
@@ -159,42 +140,7 @@ The program handles:
 ./mp3tag -e -Y "1975" mysong.mp3
 ```
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## Future Enhancements
-
-- [ ] Support for ID3v1 tags
-- [ ] Batch editing multiple files
-- [ ] Support for album artwork
-- [ ] Additional ID3v2 frames
-- [ ] Interactive mode
-- [ ] Backup option before editing
-
-## License
-
-This project is open source and available for educational purposes.
 
 ## Author
 
-Krishnakant C. Pore
-
-## Acknowledgments
-
-- ID3v2 specification for tag format details
-- The open-source community for inspiration
-
-## Repository
-
-GitHub: [https://github.com/SLADE0261/MP3-id3v2-editor](https://github.com/SLADE0261/MP3-id3v2-editor)
-
----
-
-**Note**: Always backup your MP3 files before editing tags. While this tool safely handles file operations, it's good practice to maintain backups of your audio collection.
+Falah Nizar
